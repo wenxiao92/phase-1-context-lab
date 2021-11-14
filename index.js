@@ -75,9 +75,7 @@ let nameMatch = employeeRecords.filter(function(ele){
     return ele.firstName === firstName
 })
 
-console.log(nameMatch[0].familyName)
-console.log(nameMatch[0].firstName)
-return nameMatch[0].familyName
+return nameMatch[0]
 }
 
 
